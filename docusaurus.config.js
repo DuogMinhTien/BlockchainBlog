@@ -3,7 +3,7 @@
 
 const lightCodeTheme = require("prism-react-renderer/themes/github");
 const darkCodeTheme = require("prism-react-renderer/themes/dracula");
-
+const path = require("path");
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: "Blockchain Blog",
@@ -13,7 +13,7 @@ const config = {
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.ico",
-
+  plugins: ["docusaurus-plugin-sass"],
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: "facebook", // Usually your GitHub org/user name.
@@ -22,11 +22,12 @@ const config = {
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
   // to replace "en" with "zh-Hans".
+  // plugins: ["@docusaurus/plugin-prismjs"],
   i18n: {
     defaultLocale: "en",
     locales: ["en"],
   },
-
+  // scripts: ["static/plugins/prism/prism.js"],
   presets: [
     [
       "classic",
@@ -47,7 +48,10 @@ const config = {
             "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
         },
         theme: {
-          customCss: require.resolve("./src/css/custom.css"),
+          customCss: [
+            require.resolve("./src/css/custom.css"),
+            // "./static/plugins/prism/prism.scss",
+          ],
         },
       }),
     ],

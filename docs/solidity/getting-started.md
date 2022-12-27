@@ -1,5 +1,5 @@
 ---
-sidebar_position: 5
+sidebar_position: 1
 ---
 
 # Khởi động
@@ -69,7 +69,7 @@ function getData() view public returns (uint x) {
 
 - Trong khi đó, hàm sau sẽ thay đổi trạng thái của hợp đồng và tính `phí` khi được gọi:
 
-```jsx
+```sol
 function setData(uint x) public {
     data = x;
 }
