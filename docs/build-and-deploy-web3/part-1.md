@@ -44,7 +44,7 @@ npx thirdweb@latest create --contract
 
     - `ERC1155` là một tiêu chuẩn cho cả token đồng nhất và token không đồng nhất trên blockchain Ethereum. Nó cho phép hợp đồng thông minh quản lý một hợp đồng duy nhất có thể chứa cả hai loại token, cũng như định nghĩa quy tắc cho cách chúng có thể được kết hợp hoặc chia ra. Điều này có thể hữu ích trong những trường hợp khác nhau loại tài sản cần được gói lại cùng nhau, chẳng hạn như trong một trò chơi khi một người chơi có thể trao đổi một kết hợp các mục trò chơi khác nhau. Giống như `ERC721` và `ERC20`, `ERC1155` định nghĩa một tập hợp quy tắc và hàm phải được thực thi bởi hợp đồng thông minh phát hành hoặc quản lý những loại token này.
 
-- Vào thư mục `blockchainweb3`, `cài đặt`dotenv` để chạy biến môi trường:
+- Vào thư mục `blockchainweb3`, cài đặt `dotenv` để chạy biến môi trường:
 
 ```
 cd ./blockchainweb3
