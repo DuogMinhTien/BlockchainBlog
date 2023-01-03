@@ -196,7 +196,7 @@ Ethers cũng cung cấp một tập hợp các tiện ích hữu ích cho việc
 
 Ethers được thiết kế để đơn giản hóa việc tương tác với mạng Ethereum cho các lập trình viên, và cung cấp một giao diện API dễ sử dụng và đầy đủ tính năng. Nó cũng được thiết kế để được tích hợp vào các dự án web và các ứng dụng JavaScript khác.
 
-```title="npm"
+```bash title="npm"
 npm install ethers
 ```
 

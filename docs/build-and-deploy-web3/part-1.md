@@ -46,7 +46,7 @@ npx thirdweb@latest create --contract
 
 - Vào thư mục `blockchainweb3`, cài đặt `dotenv` để chạy biến môi trường:
 
-```
+```bash
 cd ./blockchainweb3
 npm install dotenv
 ```

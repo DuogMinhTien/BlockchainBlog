@@ -202,7 +202,7 @@ npx thirdweb create --app
 
 Phần này sẽ sử dụng framework `Vite`, blockchain `EVM` và ngôn ngữ `Javascript`
 
-```title="Cài đặt react router"
+```bash title="Cài đặt react router"
 npm install react-router-dom
 ```
 
@@ -215,7 +215,7 @@ npm install react-router-dom
 
 ## Cài đặt tailwind
 
-```
+```bash
 npm install -D tailwindcss postcss autoprefixer
 npx tailwindcss init -p
 ```
